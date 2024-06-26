@@ -37,7 +37,7 @@ export const NewFooter = () => {
 
                         <div className="flex flex-col space-y-5 font-light list-none">
                             <a href={"/career"} className="inline-flex items-center text-white no-underline">
-                                Career
+                                Careers
                             </a>
                             <a href={"/community"} className="inline-flex items-center text-white no-underline">
                                 Community
