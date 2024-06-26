@@ -5,10 +5,6 @@ import { LandingNav } from "../../components/Nav";
 
 import { NewFooter } from "../../components/Footer/NewFooter";
 
-
-import { SwitchAccessShortcutAdd, CardGiftcard, Stream, GppGood, Diversity1, Psychology } from '@mui/icons-material/';
-
-
 import WorkWithUs from "../../assets/career/work-with-us.png"
 import Approval from "../../assets/career/Approval.svg"
 import Laptop from "../../assets/career/Laptop.svg"
@@ -75,8 +71,7 @@ const Career = () => {
             <div className="grid grid-cols-1 mt-10 mb-16 xl:grid-cols-2 xxxs:px-4 lg:px-24 gap-x-16 gap-y-10 lg:flex-row">
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
                     <div className="flex items-center justify-center text-[5.375rem]">
-
-                        <Psychology fontSize="inherit" className="size-32 aspect-square" />
+                        <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit size-32 aspect-square css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="PsychologyIcon"><path d="M13 8.57c-.79 0-1.43.64-1.43 1.43s.64 1.43 1.43 1.43 1.43-.64 1.43-1.43-.64-1.43-1.43-1.43z"></path><path d="M13 3C9.25 3 6.2 5.94 6.02 9.64L4.1 12.2c-.25.33-.01.8.4.8H6v3c0 1.1.9 2 2 2h1v3h7v-4.68c2.36-1.12 4-3.53 4-6.32 0-3.87-3.13-7-7-7zm3 7c0 .13-.01.26-.02.39l.83.66c.08.06.1.16.05.25l-.8 1.39c-.05.09-.16.12-.24.09l-.99-.4c-.21.16-.43.29-.67.39L14 13.83c-.01.1-.1.17-.2.17h-1.6c-.1 0-.18-.07-.2-.17l-.15-1.06c-.25-.1-.47-.23-.68-.39l-.99.4c-.09.03-.2 0-.25-.09l-.8-1.39c-.05-.08-.03-.19.05-.25l.84-.66c-.01-.13-.02-.26-.02-.39s.02-.27.04-.39l-.85-.66c-.08-.06-.1-.16-.05-.26l.8-1.38c.05-.09.15-.12.24-.09l1 .4c.2-.15.43-.29.67-.39L12 6.17c.02-.1.1-.17.2-.17h1.6c.1 0 .18.07.2.17l.15 1.06c.24.1.46.23.67.39l1-.4c.09-.03.2 0 .24.09l.8 1.38c.05.09.03.2-.05.26l-.85.66c.03.12.04.25.04.39z"></path></svg>
                     </div>
                     <div className="w-10/12">
                         <span className="text-lg font-semibold text-black font-montserrat">Innovative Environment</span>
@@ -89,7 +84,7 @@ const Career = () => {
                 <div className="flex items-center flex-row sm:p-5 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
                     <div className="flex items-center justify-center text-[5.375rem]">
 
-                        <SwitchAccessShortcutAdd fontSize="inherit" className="size-32 aspect-square" />
+                        <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit size-32 aspect-square css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SwitchAccessShortcutAddIcon"><path d="M24 14h-2v-2h-2v2h-2v2h2v2h2v-2h2v-2zM7.06 8.94 5 8l2.06-.94L8 5l.94 2.06L11 8l-2.06.94L8 11l-.94-2.06zM8 21l.94-2.06L11 18l-2.06-.94L8 15l-.94 2.06L5 18l2.06.94L8 21zm-3.63-8.63L3 13l1.37.63L5 15l.63-1.37L7 13l-1.37-.63L5 11l-.63 1.37zM12 12c0-2.73 1.08-5.27 2.75-7.25L12 2h7v7l-2.82-2.82C14.84 7.82 14 9.88 14 12c0 3.32 2.1 6.36 5 7.82V22c-4.09-1.59-7-5.65-7-10z"></path></svg>
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Professional Growth</span>
@@ -102,8 +97,7 @@ const Career = () => {
 
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
                     <div className="flex items-center justify-center text-[5.375rem] ">
-
-                        <Diversity1 fontSize="inherit" className="size-32 aspect-square" />
+                        <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit size-32 aspect-square css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="Diversity1Icon"><circle cx="4" cy="14" r="2"></circle><path d="M1.22 17.58C.48 17.9 0 18.62 0 19.43V21h4.5v-1.61c0-.83.23-1.61.63-2.29-.37-.06-.74-.1-1.13-.1-.99 0-1.93.21-2.78.58z"></path><circle cx="20" cy="14" r="2"></circle><path d="M22.78 17.58c-.85-.37-1.79-.58-2.78-.58-.39 0-.76.04-1.13.1.4.68.63 1.46.63 2.29V21H24v-1.57c0-.81-.48-1.53-1.22-1.85zm-6.54-.93c-1.17-.52-2.61-.9-4.24-.9-1.63 0-3.07.39-4.24.9C6.68 17.13 6 18.21 6 19.39V21h12v-1.61c0-1.18-.68-2.26-1.76-2.74zM9 12c0 1.66 1.34 3 3 3s3-1.34 3-3-1.34-3-3-3-3 1.34-3 3z"></path><path d="M2.48 10.86C2.17 10.1 2 9.36 2 8.6 2 6.02 4.02 4 6.6 4c2.68 0 3.82 1.74 5.4 3.59C13.57 5.76 14.7 4 17.4 4 19.98 4 22 6.02 22 8.6c0 .76-.17 1.5-.48 2.26.65.31 1.18.82 1.53 1.44.6-1.2.95-2.42.95-3.7C24 4.9 21.1 2 17.4 2c-2.09 0-4.09.97-5.4 2.51C10.69 2.97 8.69 2 6.6 2 2.9 2 0 4.9 0 8.6c0 1.28.35 2.5.96 3.7.35-.62.88-1.13 1.52-1.44z"></path></svg>
                     </div>
                     <div className="">
                         <span className="text-lg font-semibold text-black font-montserrat">Positive Culture</span>
@@ -113,8 +107,7 @@ const Career = () => {
 
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
                     <div className="flex items-center justify-center text-[5.375rem] ">
-
-                        <Stream fontSize="inherit" className="size-32 aspect-square" />
+                        <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit size-32 aspect-square css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StreamIcon"><circle cx="20" cy="12" r="2"></circle><circle cx="4" cy="12" r="2"></circle><circle cx="12" cy="20" r="2"></circle><path d="M10.05 8.59 6.03 4.55h-.01l-.31-.32-1.42 1.41 4.02 4.05.01-.01.31.32zm3.893.027 4.405-4.392L19.76 5.64l-4.405 4.393zM10.01 15.36l-1.42-1.41-4.03 4.01-.32.33 1.41 1.41 4.03-4.02zm9.75 2.94-3.99-4.01-.36-.35L14 15.35l3.99 4.01.35.35z"></path><circle cx="12" cy="4" r="2"></circle></svg>
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Flexible Opportunities</span>
@@ -129,7 +122,7 @@ const Career = () => {
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
                     <div className="flex items-center justify-center text-[5.375rem] ">
 
-                        <GppGood fontSize="inherit" className="size-32 aspect-square" />
+                        <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit size-32 aspect-square css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="GppGoodIcon"><path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1.06 13.54L7.4 12l1.41-1.41 2.12 2.12 4.24-4.24 1.41 1.41-5.64 5.66z"></path></svg>
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Impactful Values</span>
@@ -141,8 +134,7 @@ const Career = () => {
 
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
                     <div className="flex items-center justify-center text-[5.375rem] ">
-
-                        <CardGiftcard fontSize="inherit" className="size-32 aspect-square" />
+                        <svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit size-32 aspect-square css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CardGiftcardIcon"><path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"></path></svg>
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Inclusive Benefits</span>
