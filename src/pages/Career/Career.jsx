@@ -52,7 +52,7 @@ const Career = () => {
                     </div>
                     <div className="w-10/12">
                         <span className="text-lg font-semibold text-black font-montserrat">Innovative Environment</span>
-                        <p className="text-sm font-medium sm:text-base">Join a dynamic and innovative workplace where your ideas are valued, and your contributions make a real impact.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">Join a dynamic and innovative workplace where your ideas are valued, and your contributions make a real impact.</p>
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@ const Career = () => {
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Professional Growth</span>
-                        <p className="text-sm font-medium sm:text-base">We are committed to supporting our team’s growth through training, mentorship, and career growth opportunities.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">We are committed to supporting our team’s growth through training, mentorship, and career growth opportunities.</p>
                     </div>
                 </div>
 
@@ -79,7 +79,7 @@ const Career = () => {
                     </div>
                     <div className="">
                         <span className="text-lg font-semibold text-black font-montserrat">Positive Culture</span>
-                        <p className="text-sm font-medium sm:text-base">Experience a supportive and inclusive work culture that fosters collaboration, creativity, and teamwork.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">Experience a supportive and inclusive work culture that fosters collaboration, creativity, and teamwork.</p>
                     </div>
                 </div>
 
@@ -90,7 +90,7 @@ const Career = () => {
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Flexible Opportunities</span>
-                        <p className="text-sm font-medium sm:text-base">We offer both remote and hybrid roles to accommodate diverse work preferences and lifestyles.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">We offer both remote and hybrid roles to accommodate diverse work preferences and lifestyles.</p>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@ const Career = () => {
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Impactful Values</span>
-                        <p className="text-sm font-medium sm:text-base">At Ubulu Africa, we value integrity, professionalism, learning, excellence, innovation, and collaboration.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">At Ubulu Africa, we value integrity, professionalism, learning, excellence, innovation, and collaboration.</p>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@ const Career = () => {
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Inclusive Benefits</span>
-                        <p className="text-sm font-medium sm:text-base">We offer HMO coverage and robust pension plans for our team’s health and financial security.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">We offer HMO coverage and robust pension plans for our team’s health and financial security.</p>
                     </div>
                 </div>
 
