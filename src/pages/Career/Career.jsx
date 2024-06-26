@@ -74,7 +74,7 @@ const Career = () => {
             </div>
             <div className="grid grid-cols-1 mt-10 mb-16 xl:grid-cols-2 xxxs:px-4 lg:px-24 gap-x-16 gap-y-10 lg:flex-row">
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
-                    <div className="flex items-center justify-center text-9xl ">
+                    <div className="flex items-center justify-center text-[5.375rem]">
 
                         <Psychology fontSize="inherit" className="size-32 aspect-square" />
                     </div>
@@ -87,7 +87,7 @@ const Career = () => {
 
 
                 <div className="flex items-center flex-row sm:p-5 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
-                    <div className="flex items-center justify-center text-9xl ">
+                    <div className="flex items-center justify-center text-[5.375rem]">
 
                         <SwitchAccessShortcutAdd fontSize="inherit" className="size-32 aspect-square" />
                     </div>
@@ -101,7 +101,7 @@ const Career = () => {
 
 
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
-                    <div className="flex items-center justify-center text-9xl ">
+                    <div className="flex items-center justify-center text-[5.375rem] ">
 
                         <Diversity1 fontSize="inherit" className="size-32 aspect-square" />
                     </div>
@@ -112,7 +112,7 @@ const Career = () => {
                 </div>
 
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
-                    <div className="flex items-center justify-center text-9xl ">
+                    <div className="flex items-center justify-center text-[5.375rem] ">
 
                         <Stream fontSize="inherit" className="size-32 aspect-square" />
                     </div>
@@ -127,7 +127,7 @@ const Career = () => {
 
 
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
-                    <div className="flex items-center justify-center text-9xl ">
+                    <div className="flex items-center justify-center text-[5.375rem] ">
 
                         <GppGood fontSize="inherit" className="size-32 aspect-square" />
                     </div>
@@ -140,7 +140,7 @@ const Career = () => {
 
 
                 <div className="flex items-center flex-row sm:p-9 p-2 gap-x-2 sm:gap-x-8  bg-[#F4F6FF] rounded-3xl shadow-md">
-                    <div className="flex items-center justify-center text-9xl ">
+                    <div className="flex items-center justify-center text-[5.375rem] ">
 
                         <CardGiftcard fontSize="inherit" className="size-32 aspect-square" />
                     </div>
