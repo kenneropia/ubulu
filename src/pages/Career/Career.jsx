@@ -79,7 +79,7 @@ const Career = () => {
                     </div>
                     <div className="">
                         <span className="text-lg font-semibold text-black font-montserrat">Positive Culture</span>
-                        <p className="text-sm font-medium text-justify sm:text-base">Experience a supportive and inclusive work culture that fosters collaboration, creativity, and teamwork.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">Experience a supportive and inclusive work <br className="invisible sm:visible" /> culture that fosters collaboration, creativity, and teamwork.</p>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@ const Career = () => {
                     </div>
                     <div className="w-auto">
                         <span className="text-lg font-semibold text-black font-montserrat">Impactful Values</span>
-                        <p className="text-sm font-medium text-justify sm:text-base">At Ubulu Africa, we value integrity, professionalism, learning, excellence, innovation, and collaboration.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">At Ubulu Africa, we value integrity, learning,  professionalism, excellence, innovation, and collaboration.</p>
                     </div>
                 </div>
 
