@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useState, Suspense } from "react";
 import { LandingNav } from "../../components/Nav";
 
 
@@ -8,27 +8,55 @@ import { NewFooter } from "../../components/Footer/NewFooter";
 
 import { SwitchAccessShortcutAdd, CardGiftcard, Stream, GppGood, Diversity1, Psychology } from '@mui/icons-material/';
 
+
 import WorkWithUs from "../../assets/career/work-with-us.png"
-import Innovation from "../../assets/career/Innovation.png"
-
-import Culture from "../../assets/career/Culture.png"
-import Opportunities from "../../assets/career/Opportunities.png"
-import Values from "../../assets/career/Values.png"
-import Benefits from "../../assets/career/Benefits.png"
-
 import Approval from "../../assets/career/Approval.svg"
 import Laptop from "../../assets/career/Laptop.svg"
 import Location from "../../assets/career/Location.svg"
 import Clock from "../../assets/career/Clock.svg"
 import Vision from "../../assets/career/Vision.png"
 import TalentPool from "../../assets/career/talent-pool.png"
+import { BiPlus } from "react-icons/bi";
+
+
+const JotFormReact = React.lazy(() => import('jotform-react'));
+const Modal = ({ children, onClose }) => {
+    return (
+        <div className="fixed inset-0 z-[300] flex items-center justify-center">
+            <div className="fixed inset-0 bg-black opacity-50" onClick={onClose}></div>
+            <div className="relative flex flex-col w-1/2 p-6 bg-white rounded-lg shadow-lg">
+                <div className="flex justify-end w-full"> <button
+                    className="text-gray-600 bg-transparent appearance-none hover:text-gray-900"
+                    onClick={onClose}
+                >
+                    <BiPlus className="rotate-45" size={20} />
+                </button>
+                </div>
+                <div className="flex items-center justify-center">
+                    {children}
+                </div>
+            </div>
+        </div>
+    );
+};
 
 
 
 const Career = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
 
     return (
         <>
+            {isModalOpen && (
+                <Modal onClose={closeModal}>
+                    <Suspense fallback={<div className="text-black">Loading form...</div>}>
+                        <JotFormReact formURL="https://form.jotform.com/241764886386575" />
+                    </Suspense>
+                </Modal>
+            )}
             <LandingNav />
             <div className=" xxxs:px-4 lg:px-24 lg:mt-72 mt-28 sm:mt-44">
                 <span className="text-[#112D7B] font-bold text-5xl font-montserrat">Careers</span>
@@ -79,7 +107,7 @@ const Career = () => {
                     </div>
                     <div className="">
                         <span className="text-lg font-semibold text-black font-montserrat">Positive Culture</span>
-                        <p className="text-sm font-medium text-justify sm:text-base">Experience a supportive and inclusive work <br className="invisible sm:visible" /> culture that fosters collaboration, creativity, and teamwork.</p>
+                        <p className="text-sm font-medium text-justify sm:text-base">Experience a supportive and inclusive work culture that fosters collaboration, creativity, and teamwork.</p>
                     </div>
                 </div>
 
@@ -171,7 +199,9 @@ const Career = () => {
                     <span className="inline-flex  justify-center  items-center bg-[#0C2A5B] font-semibold font-montserrat  text-white  text-lg rounded-full py-2 gap-x-3 lg:px-12 px-3"> Be A Part Of The Vision</span>
                     <p className="my-4 text-xl font-semibold text-black font-montserrat">Interested in joining the Ubulu team?</p>
                     <p className="text-base font-semibold leading-8 text-justify text-black lg:w-11/12 font-lato">Within the next decade, Ubulu Africa will facilitate the creation of numerous breakthrough innovative solutions within various industries and sectors across the African continent. If you are a brilliant, creative mind looking to join us in building impactful ventures, solving interesting problems and growing the digital innovation body of work, then you’re at the right place! Join the community to be considered for future opportunities.</p>
-                    <span className="inline-flex items-center justify-between px-12 py-3 mt-2 text-lg font-normal text-white bg-black rounded-2xl font-lato gap-x-3">Join Our Talent Pool <img src={TalentPool} /> </span>
+                    <button onClick={() => {
+                        setIsModalOpen(true)
+                    }} className="inline-flex items-center justify-between px-12 py-3 mt-2 text-lg font-normal text-white bg-black appearance-none rounded-2xl font-lato gap-x-3">Join Our Talent Pool <img src={TalentPool} /> </button>
                 </div>
             </div>
             <NewFooter /> </>
