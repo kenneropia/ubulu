@@ -1,0 +1,32 @@
+.card-body h1 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.card-body p {
+  font-size: 14px;
+  max-width: 327px;
+}
+.card-body button {
+  width: 100%;
+  border-radius: 8px;
+}
+.card-body span {
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+}
+
+.img_pro {
+  width: 360px;
+  height: 225px;
+}
+@media (max-width: 375px) {
+  .img_pro {
+    width: 100%;
+  }
+}
+@media (max-width: 475px) {
+  .img_pro {
+    width: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ubulu",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://ubulu.africa",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@fontsource-variable/montserrat": "^5.0.19",
+    "@fontsource/lato": "^5.0.21",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/styled-engine": "^5.14.16",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "eslint": "^8.33.0",
+    "eslint-plugin-react": "^7.32.2",
+    "jotform-react": "^1.1.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-modal": "^3.16.1",
+    "react-player": "^2.13.0",
+    "react-router-dom": "^6.16.0",
+    "react-youtube": "^10.1.0",
+    "sonner": "^1.5.0",
+    "vite-plugin-svgr": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.4.3",
+    "vite": "^4.0.0"
+  }
+}

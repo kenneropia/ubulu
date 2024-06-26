@@ -1,0 +1,287 @@
+.wrapper {
+  position: fixed;
+  top: 34px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  height: 112px;
+  padding: 0rem 7.5rem;
+  display: flex;
+  align-items: center;
+}
+/* Example CSS to change the color of "Join Our Ecosystem" */
+
+.wrapper.white {
+  top: 0px;
+  background-color: rgba(252, 252, 253, 0.88);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: fit-content;
+}
+/* In your CSS or styles.module.css */
+.joinButton {
+  background-color: #1b1b1b; /* Customize the button's background color */
+  color: #fff; /* Customize the button's text color */
+  padding: 15px 20px; /* Customize padding as needed */
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Add these styles for the dropdown */
+.serviceDropdown {
+  position: absolute;
+  top: 52%;
+  left: 370px;
+
+  display: none;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  min-width: 160px;
+}
+
+/* Style the individual service links within the dropdown */
+.serviceDropdown a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+
+  transition: background-color 0.3s;
+  cursor: pointer; /* Add cursor pointer to make it clickable */
+}
+
+/* Hover effect for the service links */
+.serviceDropdown a:hover {
+  background-color: #1b1b1b;
+}
+
+/* Show the dropdown when hovering over the parent item */
+.nav_link__item:hover .serviceDropdown {
+  display: block;
+}
+
+.wrapper.mobile {
+  top: 0px;
+  height: unset;
+  padding: 1.6875rem 2.5rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(252, 252, 253, 0.88);
+}
+
+.nav_links__container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social_links__container {
+  display: flex;
+  gap: 16px;
+}
+
+.wrapper.white .socials path {
+  fill: #38383a;
+}
+a.active {
+  margin-top: 2px;
+  border-bottom: 3px solid #cccac8; /* Customize the underline style */
+}
+
+.nav_links {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav_link__item,
+.nav_link__item a {
+  display: flex;
+  align-items: center;
+}
+
+.nav_link__item img {
+  width: 80px;
+  height:80px;
+  margin-right: 40px;
+}
+
+.nav_link__item {
+  margin: 0 24px;
+}
+
+.nav_link__item:first-child {
+  margin-left: 0;
+}
+.nav_link__item:last-child {
+  margin-right: 0;
+}
+
+.nav_link__item a {
+  text-decoration: none;
+  position: relative;
+  height: fit-content;
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--ulu-color-primary-shade-5);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+/* .nav_link__item.active a::before {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  left: -14px;
+  width: 12px;
+  height: 12px;
+  background-color: #fcfcfc;
+  border-radius: 100%;
+} */
+
+/* Footer nav links */
+.footer_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+.footer_links a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #777e91;
+}
+
+.mobile_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile_logo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.mobile_nav_links__container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding: 32px 30px;
+  background-color: #fcfcfd;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile_nav_links__logo {
+  margin-bottom: 2.5rem;
+}
+
+.close_icon {
+  position: absolute;
+  right: 2.5rem;
+  top: 3.75rem;
+  cursor: pointer;
+}
+
+.hamburger_menu {
+  cursor: pointer;
+}
+
+.mobile_nav_links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mobile_nav_links__logo img {
+  margin-left: -13px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile_nav_link__item a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #777e91;
+  text-decoration: none;
+}
+
+.mobile_nav_link__item.active a::before {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+  width: 2px;
+  height: 64px;
+  background-color: #08080c;
+}
+
+@media screen and (max-width: 1124px) {
+  .nav_links__container,
+  .wrapper.mobile {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper.mobile {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wrapper.mobile {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .mobile_logo img {
+    object-fit: cover;
+    width: 56px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .wrapper.mobile {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .mobile_logo > img {
+    width: 80x;
+    height: 80px;
+  }
+
+  .mobile_nav_links__container {
+    overflow-y: scroll;
+  }
+}

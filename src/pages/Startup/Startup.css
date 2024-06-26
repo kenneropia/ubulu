@@ -1,0 +1,94 @@
+.ubuSpace {
+  margin-top: 125px !important;
+}
+.textleft h2 {
+  text-align: left;
+  text-align-last: right;
+}
+.textleft p {
+  text-align: end;
+}
+.fs-4 {
+  margin-left: 5px;
+}
+.ctajoin {
+  background-color: #1b1b1b;
+  height: 300px;
+}
+.talentbtn {
+  border-radius: 8px;
+}
+/* Add this to your CSS */
+.ReactModal__Overlay {
+  transition: opacity 300ms;
+  backdrop-filter: blur(4px); /* Adjust the blur amount as needed */
+  z-index: 1000;
+  background-color: none;
+  background: none;
+}
+
+.ReactModal__Content {
+  max-height: 80vh; /* Adjust the value as needed */
+  overflow-y: auto;
+  background-color: none;
+  background: none;
+}
+.startup_image {
+  width: 500px;
+  height: 300px;
+}
+.ubulu_circle {
+  width: 510px;
+  height: 500px;
+}
+.card-body p {
+  max-width: 265px;
+  font-size: 15px;
+}
+.ubulu_c {
+  width: 560px;
+  height: 550px;
+}
+#Desktop_display {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .startup_image {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: auto;
+  }
+  .ubulu_circle {
+    width: 255px;
+    height: 250px;
+    display: block;
+    margin: auto;
+  }
+  .textleft h2 {
+    text-align: center;
+    text-align-last: center;
+  }
+  .textleft p {
+    text-align: center;
+  }
+  .fs-4 {
+    margin-left: none;
+  }
+  .text-center h2 {
+    text-align: center;
+    text-align-last: center;
+  }
+  #mobile_display {
+    display: none;
+  }
+  #Desktop_display {
+    display: block;
+  }
+  #space {
+    margin-top: 45px;
+  }
+  .ctajoin {
+    height: 432px;
+  }
+}
